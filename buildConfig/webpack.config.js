@@ -10,7 +10,6 @@
  */
 const path = require('path')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
-
 module.exports = {
     mode: "production",
 
@@ -20,7 +19,7 @@ module.exports = {
         rules: [
             {
                 // test指定的是规则生效的文件,意思是，用ts-loader来处理以ts为结尾的文件
-                test: /\.ts$/,
+                test: /\.ts|\.js$/,
                 exclude: /node_modules/,
                 use: [
                     // 配置babel

@@ -2,5 +2,11 @@
     "fileMark": {
         "configFile": "src/config.json",
         "scriptFile": "dist/index.js"
+    },
+    "name": "闲鱼",
+    "scriptId": "640ec578daf5b3653d3a875c",
+    "executeRobot": {
+        "_id": "640ec59edaf5b3653d3a876c",
+        "name": "严慈大象"
     }
 }
